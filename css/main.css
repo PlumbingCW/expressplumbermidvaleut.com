@@ -404,3 +404,7 @@ main,footer{overflow-wrap:anywhere}
 
 .postcard .pc-img{display:block;width:100%;height:auto;aspect-ratio:5/2;object-fit:cover;background:var(--navy)}
 .hero.has-hero:before{background:linear-gradient(100deg,rgba(18,32,58,.9) 0%,rgba(18,32,58,.76) 48%,rgba(18,32,58,.28) 100%)}
+
+.hoodlist{list-style:none;margin:14px 0 0;padding:0;display:grid;gap:10px}
+.hoodlist li{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px;font-size:16px}
+.hoodlist a{font-weight:700}
